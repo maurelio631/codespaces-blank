@@ -31,7 +31,21 @@ namespace EditorDeTexto
 
         static void Abrir()
         {
+            Console.Clear();
+            Console.WriteLine("Qual o caminho do arquivo?");
 
+            string caminho = Console.ReadLine();
+
+            using(StreamReader arquivo = new StreamReader(caminho)){
+            
+                string texto = arquivo.ReadToEnd();
+            
+                Console.WriteLine(texto);
+            }
+
+            Console.Write("");
+            Console.ReadLine();
+            Menu();
         }
 
         static void Editar()
