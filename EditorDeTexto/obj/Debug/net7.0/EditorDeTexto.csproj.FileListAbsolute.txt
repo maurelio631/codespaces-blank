@@ -1,0 +1,15 @@
+/workspaces/codespaces-blank/EditorDeTexto/bin/Debug/net7.0/EditorDeTexto
+/workspaces/codespaces-blank/EditorDeTexto/bin/Debug/net7.0/EditorDeTexto.deps.json
+/workspaces/codespaces-blank/EditorDeTexto/bin/Debug/net7.0/EditorDeTexto.runtimeconfig.json
+/workspaces/codespaces-blank/EditorDeTexto/bin/Debug/net7.0/EditorDeTexto.dll
+/workspaces/codespaces-blank/EditorDeTexto/bin/Debug/net7.0/EditorDeTexto.pdb
+/workspaces/codespaces-blank/EditorDeTexto/obj/Debug/net7.0/EditorDeTexto.csproj.AssemblyReference.cache
+/workspaces/codespaces-blank/EditorDeTexto/obj/Debug/net7.0/EditorDeTexto.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/codespaces-blank/EditorDeTexto/obj/Debug/net7.0/EditorDeTexto.AssemblyInfoInputs.cache
+/workspaces/codespaces-blank/EditorDeTexto/obj/Debug/net7.0/EditorDeTexto.AssemblyInfo.cs
+/workspaces/codespaces-blank/EditorDeTexto/obj/Debug/net7.0/EditorDeTexto.csproj.CoreCompileInputs.cache
+/workspaces/codespaces-blank/EditorDeTexto/obj/Debug/net7.0/EditorDeTexto.dll
+/workspaces/codespaces-blank/EditorDeTexto/obj/Debug/net7.0/refint/EditorDeTexto.dll
+/workspaces/codespaces-blank/EditorDeTexto/obj/Debug/net7.0/EditorDeTexto.pdb
+/workspaces/codespaces-blank/EditorDeTexto/obj/Debug/net7.0/EditorDeTexto.genruntimeconfig.cache
+/workspaces/codespaces-blank/EditorDeTexto/obj/Debug/net7.0/ref/EditorDeTexto.dll
