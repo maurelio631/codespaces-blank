@@ -35,7 +35,15 @@ namespace EditorDeTexto
 
         static void Editar()
         {
-
+            Console.Clear();
+            Console.WriteLine("Digite o texto desejado (ESC para sair do modo de edição)");
+            Console.WriteLine("");
+            Console.WriteLine("-----------------------");
+            string texto = "";
+            
+            while(Console.ReadKey().Key != ConsoleKey.Escape){
+                
+            }
         }
     }
 }
