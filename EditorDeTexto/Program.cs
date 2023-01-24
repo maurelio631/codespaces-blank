@@ -48,18 +48,23 @@ namespace EditorDeTexto
                 texto += Environment.NewLine;
             }
             while (Console.ReadKey().Key != ConsoleKey.Escape);
-                Console.Write(texto);
+            Salvar(texto);
         }
-        
-        static void Salvar(string texto){
+
+        static void Salvar(string texto)
+        {
             Console.Clear();
             Console.WriteLine("Qual o caminho para salvar o arquivo?");
-            
+
             var caminho = Console.ReadLine();
 
-            using(StreamWriter arquivo = new StreamWriter(caminho)){
+            using (StreamWriter arquivo = new StreamWriter(caminho))
+            {
                 arquivo.Write(texto);
             }
+            Console.WriteLine($"Arquivo {caminho} salvo com sucesso!!");
+            // Console.ReadLine();
+            Menu();
         }
     }
 }
