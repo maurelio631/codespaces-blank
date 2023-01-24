@@ -50,5 +50,16 @@ namespace EditorDeTexto
             while (Console.ReadKey().Key != ConsoleKey.Escape);
                 Console.Write(texto);
         }
+        
+        static void Salvar(string texto){
+            Console.Clear();
+            Console.WriteLine("Qual o caminho para salvar o arquivo?");
+            
+            var caminho = Console.ReadLine();
+
+            using(StreamWriter arquivo = new StreamWriter(caminho)){
+                arquivo.Write(texto);
+            }
+        }
     }
 }
