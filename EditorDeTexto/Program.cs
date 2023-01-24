@@ -20,11 +20,12 @@ namespace EditorDeTexto
 
             short opcao = short.Parse(Console.ReadLine());
 
-            switch(opcao){
-                case 0 : System.Environment.Exit(0);break;
-                case 1 : Abrir();break;
-                case 2 : Editar();break;
-                default:Menu();break;
+            switch (opcao)
+            {
+                case 0: System.Environment.Exit(0); break;
+                case 1: Abrir(); break;
+                case 2: Editar(); break;
+                default: Menu(); break;
             }
         }
 
@@ -40,10 +41,14 @@ namespace EditorDeTexto
             Console.WriteLine("");
             Console.WriteLine("-----------------------");
             string texto = "";
-            
-            while(Console.ReadKey().Key != ConsoleKey.Escape){
-                
+
+            do
+            {
+                texto += Console.ReadLine();
+                texto += Environment.NewLine;
             }
+            while (Console.ReadKey().Key != ConsoleKey.Escape);
+                Console.Write(texto);
         }
     }
 }
